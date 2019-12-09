@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <title>AJAX Lab - Pontus Z</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Välkommen till bokkatalogen.</h1>
+    <button id="gen-key">Generera nyckel</button>
+    <p id="show-key">Finns ingen nyckel..</p>
+    <br />
+    <p>Skriv in din nyckel.</p>
+    <input autocomplete="off" placeholder="XXXXX" id="key-value" type="text" />
+    <button id="login-btn">Logga in</button>
+    <p id="login-status"></p>
+    <!–– Är det ok att göra så här eller är appendchild bättre? ––>
+      <div class="input-wrapper">
+        <p>Vänligen fyll i bokens titel.</p>
+        <input autocomplete="off" id="boktitel" type="text" placeholder=" t.ex. Words of radiance..." />
+        <br />
+        <p>Vänligen fyll i författarens namn.</p>
+        <input autocomplete="off" id="författare" type="text" placeholder="t.ex. Brandon Sanderson..." />
+        <br />
+        <br />
+        <button id="save-book">Lägg till bok</button>
+        <p id="la-till-bok"></p>
+        <br>
+        <p id="get-book-status"></p>
+        <button id="get-book">Hämta böcker</button>
+        <div class="bok-wrapper">
+          <ol id="bok-lista">
+          </ol>
+        </div>
+      </div>
+</body>
+
+</html>

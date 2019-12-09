@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+* {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+body {
+    color: white;
+    background-color: #34495e;
+    text-shadow: 2px 2px 2px #000000;
+}
+button {
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bok-wrapper {
+margin-top: 0.5em;
+border: 5px solid #2170a5;
+height: 30vh;
+width: 50vw;
+border-radius: 0.5em;
+background-color:#ecf0f1 ;
+overflow-y: scroll;
+}
+
+#get-book {
+    box-shadow: 0px 3px 2px 0px #000000;
+    text-shadow: 2px 2px 2px #000000;
+    color: white;
+    margin-top: 3em;
+    width: 50vw;
+    background-color:#2170a5 ;
+    border: none;
+    border-radius: 0.2em;
+    cursor: pointer;
+    height: 1.5em;
+
+}
+.bok-wrapper {
+    box-shadow: 0px 0px 3px 1px #000000;
+}
+
+#get-book:hover {
+    background-color:#2a75a7 ;
+}
+#författare,#key-value {
+    margin-bottom: 0.5em;
+}
+
+#login-status, #la-till-bok {
+    color: green;
+}
+ol li {
+    color: black;
+    text-shadow: 0px 0px 0px #000000;
+}
+li {
+    padding: 0.5em;
+}
+@media screen and (max-width: 440px) {
+    h1 {
+        text-align: center;
+    }
+    }

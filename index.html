@@ -9,19 +9,20 @@
   <script src="script.js"></script>
   <title>AJAX Lab - Pontus Z</title>
 </head>
-
 <body>
   <div class="container">
     <h1>Välkommen till bokkatalogen.</h1>
     <button id="gen-key">Generera nyckel</button>
     <p id="show-key">Finns ingen nyckel..</p>
+    <div class="error-wrapper">
+      <h4>Errors:</h4>
+    </div>
     <br />
     <p>Skriv in din nyckel.</p>
     <input autocomplete="off" placeholder="XXXXX" id="key-value" type="text" />
     <button id="login-btn">Logga in</button>
     <p id="login-status"></p>
     <!–– Är det ok att göra så här eller är appendchild bättre? ––>
-      <div class="input-wrapper">
         <p>Vänligen fyll i bokens titel.</p>
         <input autocomplete="off" id="boktitel" type="text" placeholder=" t.ex. Words of radiance..." />
         <br />
@@ -35,7 +36,6 @@
           <ol id="bok-lista">
           </ol>
         </div>
-      </div>
 </body>
 
 </html>

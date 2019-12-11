@@ -18,13 +18,6 @@ button {
     align-items: center;
     flex-direction: column;
 }
-.input-wrapper {
-    margin-top:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 .bok-wrapper {
 margin-top: 0.3em;
 border: 5px solid #2170a5;
@@ -33,6 +26,9 @@ width: 50vw;
 border-radius: 0.5em;
 background-color:#ecf0f1 ;
 overflow-y: scroll;
+}
+#save-book {
+    display: inline;
 }
 
 #get-book {
@@ -48,6 +44,24 @@ overflow-y: scroll;
     cursor: pointer;
     height: 1.5em;
 
+}
+.error-wrapper {
+    height: 20vh;
+    width: 10vw;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    right:7em;
+    top: 5em;
+}
+.error-wrapper p {
+    position: relative;
+    color: red;
+    
+}
+.error-wrapper h4 {
+    margin-bottom: 0;
 }
 .bok-wrapper {
     box-shadow: 0px 0px 3px 1px #000000;

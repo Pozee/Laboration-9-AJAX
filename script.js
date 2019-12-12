@@ -27,6 +27,7 @@ window.addEventListener("load", () => { // Load
     let title = document.querySelector("#boktitel").value
     let author = document.querySelector("#författare").value
     addData(title, author, userKey)
+    getData(userKey, 5)
   })
 
   let getBooks = document.querySelector("#get-book") // Hanterar det som händer när man trycker på Hämta böcker knappen.

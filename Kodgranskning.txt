@@ -1,0 +1,7 @@
+Kodgranskning av Tobias kod.
+
+Efter att ha granskat all kod har jag hittat följande.
+
+Jag tycker att Tobias har använt sig av tydliga variabel namn som underlättar vid läsning av hans kod och skapar en snabbare förståelse av  koden. Han har också använt kommentarer förtydliga när det kommer kod som gör något nytt och det finns kommetarer som beskriver mer vad specifika rader gör. Användningen av indrag tycker jag är helt okej och koden är lättläslig i de flesta fall.
+
+Ett förbättrings område skulle vara att använda sig av mer funktioner som man lägger utan för load. Så som koden är nu så ligger allt i load och kan lätt skapa förvirring och potentiellt göra så att sidan körs sämre. 

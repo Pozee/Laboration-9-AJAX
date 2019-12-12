@@ -14,23 +14,21 @@
     <h1>Välkommen till bokkatalogen.</h1>
     <button id="gen-key">Generera nyckel</button>
     <p id="show-key">Finns ingen nyckel..</p>
+    <h4 class="error-header">Errors:</h4>
     <div class="error-wrapper">
-      <h4>Errors:</h4>
     </div>
-    <br />
     <p>Skriv in din nyckel.</p>
     <input autocomplete="off" placeholder="XXXXX" id="key-value" type="text" />
     <button id="login-btn">Logga in</button>
-    <p id="login-status"></p>
+    <p id="login-status">Ej inloggad.</p>
     <!–– Är det ok att göra så här eller är appendchild bättre? ––>
         <p>Vänligen fyll i bokens titel.</p>
         <input autocomplete="off" id="boktitel" type="text" placeholder=" t.ex. Words of radiance..." />
-        <br />
         <p>Vänligen fyll i författarens namn.</p>
         <input autocomplete="off" id="författare" type="text" placeholder="t.ex. Brandon Sanderson..." />
         <button id="save-book">Lägg till bok</button>
         <p id="la-till-bok"></p>
-        <p id="get-book-status"></p>
+        <p id="get-book-status">Tryck på hämta böcker eller lägg till en bok för att uppdatera listan.</p>
         <button id="get-book">Hämta böcker</button>
         <div class="bok-wrapper">
           <ol id="bok-lista">

@@ -45,6 +45,16 @@ overflow-y: scroll;
     height: 1.5em;
 
 }
+.error-header {
+    height: 20vh;
+    width: 10vw;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    right:7em;
+    top: 3em;
+}
 .error-wrapper {
     height: 20vh;
     width: 10vw;
@@ -73,8 +83,10 @@ overflow-y: scroll;
 #författare,#key-value {
     margin-bottom: 0.5em;
 }
-
-#login-status, #la-till-bok {
+#login-status {
+    color: white;
+}
+#la-till-bok {
     color: green;
 }
 ol li {

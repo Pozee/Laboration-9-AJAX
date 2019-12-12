@@ -1,5 +1,5 @@
 const apiUrl = "https://forverkliga.se/JavaScript/api/crud.php";
-let userKey = "q7mLw";
+let userKey = "q7mLw"; // Använder den här nyckeln om inget annat anges.
 //s7kbs
 
 window.addEventListener("load", () => { // Load
@@ -19,6 +19,7 @@ window.addEventListener("load", () => { // Load
     let keyValue = document.querySelector("#key-value").value;
     userKey = keyValue;
     document.querySelector("#login-status").innerHTML = "Du är nu inloggad!";
+    document.querySelector("#login-status").style.color="green";
     getData(userKey , 5);
   })
 
